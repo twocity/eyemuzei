@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="frequency_titles">
+    <item>1 hour</item>
+    <item>3 hour</item>
+    <item>6 hour</item>
+    <item>one day</item>
+  </string-array>
+  <string-array name="frequency_values">
+    <item>1</item>
+    <item>3</item>
+    <item>6</item>
+    <item>24</item>
+  </string-array>
+
+  <string-array name="category_titles">
+    <item>Liked</item>
+    <item>Popular</item>
+  </string-array>
+  <string-array name="category_values">
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+</resources>

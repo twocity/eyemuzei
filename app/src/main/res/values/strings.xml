@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">eyemuzei</string>
+  <string name="app_description">Photos from EyeEm.</string>
+  <string name="settings">Settings</string>
+
+  <string name="settings_preference">Settings</string>
+  <string name="frequency_preference_key">interval_key</string>
+  <string name="frequency_preference_title">Update Interval</string>
+  <string name="frequency_preference_summary">update interval</string>
+
+  <string name="category_preference_key">category_key</string>
+  <string name="category_preference_title">EyeEm Photo Category</string>
+  <string name="category_preference_summary">EyeEm Photo Source</string>
+  <string name="about_preference">About</string>
+  <string name="logout_preference">Logout</string>
+  <string name="logout_preference_key">key_logout</string>
+  <string name="logout_preference_title">Logout</string>
+  <string name="logout_preference_summary">Logout your Eyeem Account</string>
+
+  <string name="setting_frequency_dialog_title">Setting Interval</string>
+  <string name="setting_category_dialog_title">Setting EyeEm Photo Category</string>
+
+</resources>

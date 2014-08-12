@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <PreferenceCategory
+      android:title="@string/settings_preference">
+
+    <ListPreference
+        android:key="@string/frequency_preference_key"
+        android:title="@string/frequency_preference_title"
+        android:summary="@string/frequency_preference_summary"
+        android:entries="@array/frequency_titles"
+        android:entryValues="@array/frequency_values"
+        android:defaultValue="24"
+        android:dialogTitle="@string/setting_frequency_dialog_title"/>
+    <ListPreference
+        android:key="@string/category_preference_key"
+        android:title="@string/category_preference_title"
+        android:summary="@string/category_preference_summary"
+        android:entries="@array/category_titles"
+        android:entryValues="@array/category_values"
+        android:defaultValue="1"
+        android:dialogTitle="@string/setting_category_dialog_title"/>
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/logout_preference">
+    <Preference android:title="@string/logout_preference_title"
+        android:summary="@string/logout_preference_summary"
+        android:key="@string/logout_preference_key"
+        />
+  </PreferenceCategory>
+  <PreferenceCategory
+      android:title="@string/about_preference">
+  </PreferenceCategory>
+
+</PreferenceScreen>
+
