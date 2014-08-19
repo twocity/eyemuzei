@@ -46,10 +46,8 @@ public class EyeEmArtSource extends RemoteMuzeiArtSource {
           sharedPreferences.getString(res.getString(R.string.frequency_preference_key),
               String.valueOf(INTERVAL_DAY)), INTERVAL_DAY
       );
-      //TODO remove this
-      Timber.d("###default refresh interval:%s", String.valueOf(interval));
       if (interval > 0) {
-        scheduleUpdate(System.currentTimeMillis() + 60 * 60 * 1000);
+        scheduleUpdate(System.currentTimeMillis() + 60 * 1000);
       }
     }
     String currentToken = (getCurrentArtwork() != null) ? getCurrentArtwork().getToken() : null;
